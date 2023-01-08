@@ -1,0 +1,84 @@
+h1{
+    text-align: center;
+    bottom: -60px;
+    position: relative;
+   
+    left: -80px;
+    font-family: sans-serif;
+}
+
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #000000;
+  color: #8B0000;
+
+}
+.wrapper{
+  width: 400px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50% ,-50%);
+  background: #191919;
+  text-align: center;
+}
+p{
+    color: white;
+}
+label{
+    color: white;
+}
+.wrapper h2{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.wrapper input[type = "submit"]
+ {
+   border: 0;
+   background: none;
+   display: block;
+   margin: 30px auto;
+   text-align: center;
+   border: 2px solid #8B0000;
+   padding: 14px 20px;
+   width: 270px;
+   outline: none;
+   color: white;
+   border-radius: 24px;
+   transition: 0.25s;
+   cursor: pointer;
+}
+.wrapper input[type = "submit"]:hover{
+  background:#8B0000;
+}
+.wrapper a{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #8B0000;
+  padding: 12px 12px;
+  width: 150px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-family: sans-serif;
+  text-decoration: none;
+
+
+  color: white;
+}
+.wrapper a:hover{
+  background: #8B0000
+}
