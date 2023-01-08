@@ -1,0 +1,29 @@
+CREATE USER 'user_sql'@'localhost' IDENTIFIED BY '123456';
+CREATE USER 'company_user'@'localhost' IDENTIFIED BY '123456';
+
+GRANT SELECT ON test.creditsmovies TO 'user_sql'@'localhost';
+GRANT SELECT ON test.creditsseries TO 'user_sql'@'localhost';
+GRANT SELECT, INSERT, DELETE, UPDATE ON test.moviecomments TO 'user_sql'@'localhost';
+GRANT SELECT, INSERT, DELETE, UPDATE ON test.movierating TO 'user_sql'@'localhost';
+GRANT SELECT ON test.movies TO 'user_sql'@'localhost';
+GRANT SELECT, INSERT, DELETE, UPDATE ON test.moviesfav TO 'user_sql'@'localhost';
+GRANT SELECT, INSERT, DELETE, UPDATE ON test.moviewish TO 'user_sql'@'localhost';
+GRANT SELECT ON test.series TO 'user_sql'@'localhost';
+GRANT SELECT, INSERT, DELETE, UPDATE ON test.seriescomments TO 'user_sql'@'localhost';
+GRANT SELECT, INSERT, DELETE, UPDATE ON test.seriesfav TO 'user_sql'@'localhost';
+GRANT SELECT, INSERT, DELETE, UPDATE ON test.seriesrating TO 'user_sql'@'localhost';
+GRANT SELECT, INSERT, DELETE, UPDATE ON test.serieswish TO 'user_sql'@'localhost';
+
+GRANT SELECT, INSERT, DELETE, UPDATE ON test.creditsmovies TO 'company_user'@'localhost';
+GRANT SELECT, INSERT, DELETE, UPDATE ON test.creditsseries TO 'company_user'@'localhost';
+GRANT SELECT, INSERT, DELETE, UPDATE ON test.moviecomments TO 'company_user'@'localhost';
+GRANT SELECT, INSERT, DELETE, UPDATE ON test.movierating TO 'company_user'@'localhost';
+GRANT SELECT, INSERT, DELETE, UPDATE ON test.movies TO 'company_user'@'localhost';
+GRANT SELECT, INSERT, DELETE, UPDATE ON test.moviesfav TO 'company_user'@'localhost';
+GRANT SELECT, INSERT, DELETE, UPDATE ON test.moviewish TO 'company_user'@'localhost';
+GRANT SELECT, INSERT, DELETE, UPDATE ON test.series TO 'company_user'@'localhost';
+GRANT SELECT, INSERT, DELETE, UPDATE ON test.seriescomments TO 'company_user'@'localhost';
+GRANT SELECT, INSERT, DELETE, UPDATE ON test.seriesfav TO 'company_user'@'localhost';
+GRANT SELECT, INSERT, DELETE, UPDATE ON test.seriesrating TO 'company_user'@'localhost';
+GRANT SELECT, INSERT, DELETE, UPDATE ON test.serieswish TO 'company_user'@'localhost';
+
