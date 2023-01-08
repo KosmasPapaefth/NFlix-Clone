@@ -1,1 +1,1 @@
-# NetFlix-Clone
+# NFlix-Clone
